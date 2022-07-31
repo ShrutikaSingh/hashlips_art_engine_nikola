@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "nikola_shrutika1 Collection";
 const description = "This is nikola_shrutika's nft collection";
-const baseUri = "ipfs://nikola_shrutika1";
+const baseUri = "ipfs://QmdKtjYUMWo7jdKC445gbwvs26caJnLu5yXhN4aZxR3cUk";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 2,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -36,7 +36,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 3,
     layersOrder: [
       { name: "Goo" },
       { name: "Eye color" },
