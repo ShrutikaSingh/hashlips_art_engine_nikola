@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "nikola_shrutika1 Collection";
+const description = "This is nikola_shrutika's nft collection";
+const baseUri = "ipfs://nikola_shrutika1";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -35,9 +35,20 @@ const layerConfigurations = [
       { name: "Top lid" },
     ],
   },
+  {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      { name: "Goo" },
+      { name: "Eye color" },
+
+      { name: "Shine" },
+      { name: "Bottom lid" },
+      { name: "Top lid" },
+    ],
+  },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
